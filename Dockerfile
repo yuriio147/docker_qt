@@ -34,7 +34,7 @@ ENV HOME /home/user
 USER root
 
 RUN sudo apt-get update -y
-RUN sudo apt-get install cmake wget -y
+RUN sudo apt-get install ninja-build cmake wget -y
 
 ARG QT_VERSION=5.15.2
 ARG QT_INSTALLER_URL="https://mirrors.ocf.berkeley.edu/qt/archive/online_installers/3.2/qt-unified-linux-x64-3.2.1-2-online.run"
